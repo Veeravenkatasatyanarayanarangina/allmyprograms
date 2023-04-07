@@ -1,0 +1,2039 @@
+!SESSION 2022-11-21 17:32:29.949 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+This is a continuation of log file D:\programsforpresentation\.metadata\.bak_0.log
+Created Time: 2022-11-21 17:34:46.917
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:46.917
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:46.921
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:46.926
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:46.931
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:46.936
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:46.941
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:46.947
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:46.952
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:46.957
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:46.962
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-11-21 17:34:46.963
+!MESSAGE Launch configuration NumberException references non-existing project triningpractice.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration NumberException references non-existing project triningpractice.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2120)
+	at org.eclipse.debug.internal.core.LaunchManager.projectOpened(LaunchManager.java:2212)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:356)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2272)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2394)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5929)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:108)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2022-11-21 17:34:46.963
+!MESSAGE Launch configuration NumberException references non-existing project triningpractice.
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:46.968
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:46.973
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-11-21 17:34:46.978
+!MESSAGE Launch configuration PassengerMain (1) references non-existing project triningpractice.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration PassengerMain (1) references non-existing project triningpractice.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2120)
+	at org.eclipse.debug.internal.core.LaunchManager.projectOpened(LaunchManager.java:2212)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:356)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2272)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2394)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5929)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:108)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2022-11-21 17:34:46.978
+!MESSAGE Launch configuration PassengerMain (1) references non-existing project triningpractice.
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:46.979
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:46.985
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:46.990
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:46.994
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:46.999
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.004
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.009
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.013
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-11-21 17:34:47.017
+!MESSAGE Launch configuration PassengerMain references non-existing project triningpractice.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration PassengerMain references non-existing project triningpractice.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2120)
+	at org.eclipse.debug.internal.core.LaunchManager.projectOpened(LaunchManager.java:2212)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:356)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2272)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2394)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5929)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:108)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2022-11-21 17:34:47.018
+!MESSAGE Launch configuration PassengerMain references non-existing project triningpractice.
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.018
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.022
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.027
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.030
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.036
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-11-21 17:34:47.040
+!MESSAGE Launch configuration PlaneAndPassenger references non-existing project triningpractice.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration PlaneAndPassenger references non-existing project triningpractice.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2120)
+	at org.eclipse.debug.internal.core.LaunchManager.projectOpened(LaunchManager.java:2212)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:356)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2272)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2394)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5929)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:108)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2022-11-21 17:34:47.040
+!MESSAGE Launch configuration PlaneAndPassenger references non-existing project triningpractice.
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.040
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.045
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.050
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-11-21 17:34:47.052
+!MESSAGE Launch configuration PostGreConnection references non-existing project postgarasqlprograms.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration PostGreConnection references non-existing project postgarasqlprograms.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2120)
+	at org.eclipse.debug.internal.core.LaunchManager.projectOpened(LaunchManager.java:2212)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:356)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2272)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2394)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5929)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:108)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2022-11-21 17:34:47.052
+!MESSAGE Launch configuration PostGreConnection references non-existing project postgarasqlprograms.
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.055
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.060
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.066
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.072
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-11-21 17:34:47.076
+!MESSAGE Launch configuration PracticeMain references non-existing project jdbcprograms.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration PracticeMain references non-existing project jdbcprograms.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2120)
+	at org.eclipse.debug.internal.core.LaunchManager.projectOpened(LaunchManager.java:2212)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:356)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2272)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2394)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5929)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:108)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2022-11-21 17:34:47.076
+!MESSAGE Launch configuration PracticeMain references non-existing project jdbcprograms.
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.079
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.084
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.090
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.094
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.099
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-11-21 17:34:47.103
+!MESSAGE Launch configuration PracticeString references non-existing project StringPractice.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration PracticeString references non-existing project StringPractice.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2120)
+	at org.eclipse.debug.internal.core.LaunchManager.projectOpened(LaunchManager.java:2212)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:356)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2272)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2394)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5929)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:108)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2022-11-21 17:34:47.104
+!MESSAGE Launch configuration PracticeString references non-existing project StringPractice.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-11-21 17:34:47.113
+!MESSAGE Launch configuration Prct references non-existing project assignment.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration Prct references non-existing project assignment.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2120)
+	at org.eclipse.debug.internal.core.LaunchManager.projectOpened(LaunchManager.java:2212)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:356)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2272)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2394)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5929)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:108)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2022-11-21 17:34:47.113
+!MESSAGE Launch configuration Prct references non-existing project assignment.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-11-21 17:34:47.123
+!MESSAGE Launch configuration QueueExample references non-existing project collectionProject.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration QueueExample references non-existing project collectionProject.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2120)
+	at org.eclipse.debug.internal.core.LaunchManager.projectOpened(LaunchManager.java:2212)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:356)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2272)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2394)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5929)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:108)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2022-11-21 17:34:47.123
+!MESSAGE Launch configuration QueueExample references non-existing project collectionProject.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-11-21 17:34:47.138
+!MESSAGE Launch configuration QuueExample references non-existing project collectionProject.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration QuueExample references non-existing project collectionProject.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2120)
+	at org.eclipse.debug.internal.core.LaunchManager.projectOpened(LaunchManager.java:2212)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:356)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2272)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2394)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5929)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:108)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2022-11-21 17:34:47.138
+!MESSAGE Launch configuration QuueExample references non-existing project collectionProject.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-11-21 17:34:47.149
+!MESSAGE Launch configuration StackExample references non-existing project collectionProject.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration StackExample references non-existing project collectionProject.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2120)
+	at org.eclipse.debug.internal.core.LaunchManager.projectOpened(LaunchManager.java:2212)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:356)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2272)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2394)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5929)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:108)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2022-11-21 17:34:47.149
+!MESSAGE Launch configuration StackExample references non-existing project collectionProject.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-11-21 17:34:47.160
+!MESSAGE Launch configuration StaticInnerClass references non-existing project triningpractice.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration StaticInnerClass references non-existing project triningpractice.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2120)
+	at org.eclipse.debug.internal.core.LaunchManager.projectOpened(LaunchManager.java:2212)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:356)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2272)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2394)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5929)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:108)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2022-11-21 17:34:47.160
+!MESSAGE Launch configuration StaticInnerClass references non-existing project triningpractice.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-11-21 17:34:47.176
+!MESSAGE Launch configuration StringBufferExample references non-existing project collectionProject.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration StringBufferExample references non-existing project collectionProject.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2120)
+	at org.eclipse.debug.internal.core.LaunchManager.projectOpened(LaunchManager.java:2212)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:356)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2272)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2394)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5929)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:108)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2022-11-21 17:34:47.176
+!MESSAGE Launch configuration StringBufferExample references non-existing project collectionProject.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-11-21 17:34:47.188
+!MESSAGE Launch configuration StringChack references non-existing project assignment.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration StringChack references non-existing project assignment.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2120)
+	at org.eclipse.debug.internal.core.LaunchManager.projectOpened(LaunchManager.java:2212)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:356)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2272)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2394)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5929)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:108)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2022-11-21 17:34:47.188
+!MESSAGE Launch configuration StringChack references non-existing project assignment.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-11-21 17:34:47.200
+!MESSAGE Launch configuration StudentMain references non-existing project jpapostgrace.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration StudentMain references non-existing project jpapostgrace.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2120)
+	at org.eclipse.debug.internal.core.LaunchManager.projectOpened(LaunchManager.java:2212)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:356)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2272)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2394)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5929)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:108)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2022-11-21 17:34:47.200
+!MESSAGE Launch configuration StudentMain references non-existing project jpapostgrace.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-11-21 17:34:47.211
+!MESSAGE Launch configuration Sub references non-existing project assignment.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration Sub references non-existing project assignment.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2120)
+	at org.eclipse.debug.internal.core.LaunchManager.projectOpened(LaunchManager.java:2212)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:356)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2272)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2394)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5929)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:108)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2022-11-21 17:34:47.211
+!MESSAGE Launch configuration Sub references non-existing project assignment.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-11-21 17:34:47.225
+!MESSAGE Launch configuration TT references non-existing project collectionProject.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration TT references non-existing project collectionProject.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2120)
+	at org.eclipse.debug.internal.core.LaunchManager.projectOpened(LaunchManager.java:2212)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:356)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2272)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2394)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5929)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:108)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2022-11-21 17:34:47.226
+!MESSAGE Launch configuration TT references non-existing project collectionProject.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-11-21 17:34:47.238
+!MESSAGE Launch configuration Task1 references non-existing project assignment.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration Task1 references non-existing project assignment.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2120)
+	at org.eclipse.debug.internal.core.LaunchManager.projectOpened(LaunchManager.java:2212)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:356)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2272)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2394)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5929)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:108)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2022-11-21 17:34:47.238
+!MESSAGE Launch configuration Task1 references non-existing project assignment.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-11-21 17:34:47.248
+!MESSAGE Launch configuration Test (1) references non-existing project assignment.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration Test (1) references non-existing project assignment.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2120)
+	at org.eclipse.debug.internal.core.LaunchManager.projectOpened(LaunchManager.java:2212)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:356)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2272)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2394)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5929)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:108)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2022-11-21 17:34:47.248
+!MESSAGE Launch configuration Test (1) references non-existing project assignment.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-11-21 17:34:47.260
+!MESSAGE Launch configuration Test references non-existing project assignment.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration Test references non-existing project assignment.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2120)
+	at org.eclipse.debug.internal.core.LaunchManager.projectOpened(LaunchManager.java:2212)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:356)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2272)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2394)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5929)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:108)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2022-11-21 17:34:47.260
+!MESSAGE Launch configuration Test references non-existing project assignment.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-11-21 17:34:47.278
+!MESSAGE Launch configuration TravelMain references non-existing project springexample.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration TravelMain references non-existing project springexample.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2120)
+	at org.eclipse.debug.internal.core.LaunchManager.projectOpened(LaunchManager.java:2212)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:356)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2272)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2394)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5929)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:108)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2022-11-21 17:34:47.278
+!MESSAGE Launch configuration TravelMain references non-existing project springexample.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-11-21 17:34:47.290
+!MESSAGE Launch configuration TreeMapExample references non-existing project collectionProject.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration TreeMapExample references non-existing project collectionProject.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2120)
+	at org.eclipse.debug.internal.core.LaunchManager.projectOpened(LaunchManager.java:2212)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:356)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2272)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2394)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5929)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:108)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2022-11-21 17:34:47.290
+!MESSAGE Launch configuration TreeMapExample references non-existing project collectionProject.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-11-21 17:34:47.301
+!MESSAGE Launch configuration TreesetExample references non-existing project collectionProject.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration TreesetExample references non-existing project collectionProject.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2120)
+	at org.eclipse.debug.internal.core.LaunchManager.projectOpened(LaunchManager.java:2212)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:356)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2272)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2394)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5929)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:108)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2022-11-21 17:34:47.301
+!MESSAGE Launch configuration TreesetExample references non-existing project collectionProject.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-11-21 17:34:47.312
+!MESSAGE Launch configuration UserChoose references non-existing project assignment.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration UserChoose references non-existing project assignment.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2120)
+	at org.eclipse.debug.internal.core.LaunchManager.projectOpened(LaunchManager.java:2212)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:356)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2272)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2394)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5929)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:108)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2022-11-21 17:34:47.312
+!MESSAGE Launch configuration UserChoose references non-existing project assignment.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-11-21 17:34:47.333
+!MESSAGE Launch configuration hai references non-existing project assignment.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration hai references non-existing project assignment.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2120)
+	at org.eclipse.debug.internal.core.LaunchManager.projectOpened(LaunchManager.java:2212)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:356)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2272)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2394)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5929)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:108)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2022-11-21 17:34:47.335
+!MESSAGE Launch configuration hai references non-existing project assignment.
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2022-11-21 17:34:47.358
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Status ERROR: org.eclipse.jdt.core code=0 Build path contains duplicate entry: 'module-info.java' for project 'practice'
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:548)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaProject.getModuleDescription(JavaProject.java:3917)
+	at org.eclipse.jdt.internal.ui.wizards.buildpaths.ModuleDependenciesPage.scanModules(ModuleDependenciesPage.java:349)
+	at org.eclipse.jdt.internal.ui.wizards.buildpaths.ModuleDependenciesPage.init(ModuleDependenciesPage.java:256)
+	at org.eclipse.jdt.internal.ui.wizards.buildpaths.BuildPathsBlock.doUpdateUI(BuildPathsBlock.java:405)
+	at org.eclipse.jdt.internal.ui.wizards.buildpaths.BuildPathsBlock.lambda$0(BuildPathsBlock.java:387)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4043)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3648)
+	at org.eclipse.ui.internal.dialogs.EventLoopProgressMonitor.runEventLoop(EventLoopProgressMonitor.java:126)
+	at org.eclipse.ui.internal.dialogs.EventLoopProgressMonitor.isCanceled(EventLoopProgressMonitor.java:100)
+	at org.eclipse.core.internal.jobs.ThreadJob.isCanceled(ThreadJob.java:148)
+	at org.eclipse.core.internal.jobs.ThreadJob.waitForRun(ThreadJob.java:280)
+	at org.eclipse.core.internal.jobs.ThreadJob.joinRun(ThreadJob.java:208)
+	at org.eclipse.core.internal.jobs.ImplicitJobs.begin(ImplicitJobs.java:95)
+	at org.eclipse.core.internal.jobs.JobManager.beginRule(JobManager.java:315)
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:124)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2330)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2375)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.jdt.internal.ui.wizards.buildpaths.newsourcepage.DialogPackageExplorer.setSelection(DialogPackageExplorer.java:451)
+	at org.eclipse.jdt.internal.ui.wizards.buildpaths.newsourcepage.DialogPackageExplorer.setInput(DialogPackageExplorer.java:428)
+	at org.eclipse.jdt.internal.ui.wizards.buildpaths.newsourcepage.NewSourceContainerWorkbookPage.doUpdateUI(NewSourceContainerWorkbookPage.java:137)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4043)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3648)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:166)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:368)
+	at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:1034)
+	at org.eclipse.jdt.internal.ui.wizards.NewElementWizard.performFinish(NewElementWizard.java:133)
+	at org.eclipse.jdt.internal.ui.wizards.JavaProjectWizard.performFinish(JavaProjectWizard.java:84)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:833)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:473)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.actions.NewProjectAction.run(NewProjectAction.java:119)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+!SUBENTRY 1 org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.359
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.364
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.371
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.376
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.381
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.386
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-11-21 17:34:47.391
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+!STACK 1
+Java Model Exception: Status ERROR: org.eclipse.jdt.core code=0 Build path contains duplicate entry: 'module-info.java' for project 'practice'
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:548)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:269)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createCpes(ClasspathUtil.java:139)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:83)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:129)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.391
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.391
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.395
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-11-21 17:34:47.397
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+!STACK 1
+Java Model Exception: Status ERROR: org.eclipse.jdt.core code=0 Build path contains duplicate entry: 'module-info.java' for project 'practice'
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:548)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:269)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createCpes(ClasspathUtil.java:139)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:83)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:129)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.397
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.399
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-11-21 17:34:47.404
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+!STACK 1
+Java Model Exception: Status ERROR: org.eclipse.jdt.core code=0 Build path contains duplicate entry: 'module-info.java' for project 'practice'
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:548)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:269)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createCpes(ClasspathUtil.java:139)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:83)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:129)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.404
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.404
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.409
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-11-21 17:34:47.410
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+!STACK 1
+Java Model Exception: Status ERROR: org.eclipse.jdt.core code=0 Build path contains duplicate entry: 'module-info.java' for project 'practice'
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:548)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:269)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createCpes(ClasspathUtil.java:139)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:83)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:129)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.410
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.413
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.417
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.421
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.425
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-11-21 17:34:47.432
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+!STACK 1
+Java Model Exception: Status ERROR: org.eclipse.jdt.core code=0 Build path contains duplicate entry: 'module-info.java' for project 'practice'
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:548)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:269)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createCpes(ClasspathUtil.java:139)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:83)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:129)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.432
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-11-21 17:34:47.436
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+!STACK 1
+Java Model Exception: Status ERROR: org.eclipse.jdt.core code=0 Build path contains duplicate entry: 'module-info.java' for project 'practice'
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:548)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:269)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createCpes(ClasspathUtil.java:139)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:83)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:129)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.436
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-11-21 17:34:47.442
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+!STACK 1
+Java Model Exception: Status ERROR: org.eclipse.jdt.core code=0 Build path contains duplicate entry: 'module-info.java' for project 'practice'
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:548)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:269)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createCpes(ClasspathUtil.java:139)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:83)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:129)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.443
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-11-21 17:34:47.451
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+!STACK 1
+Java Model Exception: Status ERROR: org.eclipse.jdt.core code=0 Build path contains duplicate entry: 'module-info.java' for project 'practice'
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:548)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:269)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createCpes(ClasspathUtil.java:139)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:83)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:129)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.451
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.505
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-11-21 17:34:47.506
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+!STACK 1
+Java Model Exception: Status ERROR: org.eclipse.jdt.core code=0 Build path contains duplicate entry: 'module-info.java' for project 'practice'
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:548)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:269)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createCpes(ClasspathUtil.java:139)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:83)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:129)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.506
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-11-21 17:34:47.511
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+!STACK 1
+Java Model Exception: Status ERROR: org.eclipse.jdt.core code=0 Build path contains duplicate entry: 'module-info.java' for project 'practice'
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:548)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:269)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createCpes(ClasspathUtil.java:139)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:83)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:129)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.511
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-11-21 17:34:47.516
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+!STACK 1
+Java Model Exception: Status ERROR: org.eclipse.jdt.core code=0 Build path contains duplicate entry: 'module-info.java' for project 'practice'
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:548)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:269)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createCpes(ClasspathUtil.java:139)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:83)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:129)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.518
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-11-21 17:34:47.522
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+!STACK 1
+Java Model Exception: Status ERROR: org.eclipse.jdt.core code=0 Build path contains duplicate entry: 'module-info.java' for project 'practice'
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:548)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:269)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createCpes(ClasspathUtil.java:139)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:83)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:129)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.522
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-11-21 17:34:47.527
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+!STACK 1
+Java Model Exception: Status ERROR: org.eclipse.jdt.core code=0 Build path contains duplicate entry: 'module-info.java' for project 'practice'
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:548)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:269)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createCpes(ClasspathUtil.java:139)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:83)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:129)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.527
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-11-21 17:34:47.532
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+!STACK 1
+Java Model Exception: Status ERROR: org.eclipse.jdt.core code=0 Build path contains duplicate entry: 'module-info.java' for project 'practice'
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:548)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:269)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createCpes(ClasspathUtil.java:139)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:83)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:129)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.532
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-11-21 17:34:47.536
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+!STACK 1
+Java Model Exception: Status ERROR: org.eclipse.jdt.core code=0 Build path contains duplicate entry: 'module-info.java' for project 'practice'
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:548)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:269)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createCpes(ClasspathUtil.java:139)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:83)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:129)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.537
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-11-21 17:34:47.541
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+!STACK 1
+Java Model Exception: Status ERROR: org.eclipse.jdt.core code=0 Build path contains duplicate entry: 'module-info.java' for project 'practice'
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:548)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:269)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createCpes(ClasspathUtil.java:139)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:83)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:129)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.541
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-11-21 17:34:47.549
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+!STACK 1
+Java Model Exception: Status ERROR: org.eclipse.jdt.core code=0 Build path contains duplicate entry: 'module-info.java' for project 'practice'
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:548)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:269)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createCpes(ClasspathUtil.java:139)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:83)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:129)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.549
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-11-21 17:34:47.554
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+!STACK 1
+Java Model Exception: Status ERROR: org.eclipse.jdt.core code=0 Build path contains duplicate entry: 'module-info.java' for project 'practice'
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:548)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:269)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createCpes(ClasspathUtil.java:139)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:83)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:129)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.554
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-11-21 17:34:47.559
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+!STACK 1
+Java Model Exception: Status ERROR: org.eclipse.jdt.core code=0 Build path contains duplicate entry: 'module-info.java' for project 'practice'
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:548)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:269)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createCpes(ClasspathUtil.java:139)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:83)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:129)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.559
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-11-21 17:34:47.564
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+!STACK 1
+Java Model Exception: Status ERROR: org.eclipse.jdt.core code=0 Build path contains duplicate entry: 'module-info.java' for project 'practice'
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:548)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:269)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createCpes(ClasspathUtil.java:139)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:83)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:129)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.569
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.587
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.606
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.626
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.668
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-11-21 17:34:47.706
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+!STACK 1
+Java Model Exception: Status ERROR: org.eclipse.jdt.core code=0 Build path contains duplicate entry: 'module-info.java' for project 'practice'
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:548)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:269)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createCpes(ClasspathUtil.java:139)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:83)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:129)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.707
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.803
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.807
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.811
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.815
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.818
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-11-21 17:34:47.823
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+!STACK 1
+Java Model Exception: Status ERROR: org.eclipse.jdt.core code=0 Build path contains duplicate entry: 'module-info.java' for project 'practice'
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:548)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:269)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createCpes(ClasspathUtil.java:139)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:83)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:129)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.823
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.824
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-11-21 17:34:47.826
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+!STACK 1
+Java Model Exception: Status ERROR: org.eclipse.jdt.core code=0 Build path contains duplicate entry: 'module-info.java' for project 'practice'
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:548)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:269)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createCpes(ClasspathUtil.java:139)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:83)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:129)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.826
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.832
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-11-21 17:34:47.835
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+!STACK 1
+Java Model Exception: Status ERROR: org.eclipse.jdt.core code=0 Build path contains duplicate entry: 'module-info.java' for project 'practice'
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:548)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:269)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createCpes(ClasspathUtil.java:139)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:83)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:129)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.835
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.836
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.840
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-11-21 17:34:47.842
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+!STACK 1
+Java Model Exception: Status ERROR: org.eclipse.jdt.core code=0 Build path contains duplicate entry: 'module-info.java' for project 'practice'
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:548)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:269)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createCpes(ClasspathUtil.java:139)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:83)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:129)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.843
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-11-21 17:34:47.846
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+!STACK 1
+Java Model Exception: Status ERROR: org.eclipse.jdt.core code=0 Build path contains duplicate entry: 'module-info.java' for project 'practice'
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:548)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:269)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createCpes(ClasspathUtil.java:139)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:83)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:129)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.846
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.849
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.852
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-11-21 17:34:47.856
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+!STACK 1
+Java Model Exception: Status ERROR: org.eclipse.jdt.core code=0 Build path contains duplicate entry: 'module-info.java' for project 'practice'
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:548)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:269)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createCpes(ClasspathUtil.java:139)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:83)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:129)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.856
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.858
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.862
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-11-21 17:34:47.867
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+!STACK 1
+Java Model Exception: Status ERROR: org.eclipse.jdt.core code=0 Build path contains duplicate entry: 'module-info.java' for project 'practice'
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:548)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:269)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createCpes(ClasspathUtil.java:139)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:83)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:129)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.867
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-11-21 17:34:47.871
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+!STACK 1
+Java Model Exception: Status ERROR: org.eclipse.jdt.core code=0 Build path contains duplicate entry: 'module-info.java' for project 'practice'
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:548)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:269)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createCpes(ClasspathUtil.java:139)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:83)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:129)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.871
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-11-21 17:34:47.877
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+!STACK 1
+Java Model Exception: Status ERROR: org.eclipse.jdt.core code=0 Build path contains duplicate entry: 'module-info.java' for project 'practice'
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:548)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:269)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createCpes(ClasspathUtil.java:139)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:83)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:129)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.878
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.879
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.883
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.888
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-11-21 17:34:47.888
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+!STACK 1
+Java Model Exception: Status ERROR: org.eclipse.jdt.core code=0 Build path contains duplicate entry: 'module-info.java' for project 'practice'
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:548)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:269)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createCpes(ClasspathUtil.java:139)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:83)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:129)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.888
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-11-21 17:34:47.892
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+!STACK 1
+Java Model Exception: Status ERROR: org.eclipse.jdt.core code=0 Build path contains duplicate entry: 'module-info.java' for project 'practice'
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:548)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:269)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createCpes(ClasspathUtil.java:139)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:83)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:129)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.892
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-11-21 17:34:47.895
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+!STACK 1
+Java Model Exception: Status ERROR: org.eclipse.jdt.core code=0 Build path contains duplicate entry: 'module-info.java' for project 'practice'
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:548)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:269)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createCpes(ClasspathUtil.java:139)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:83)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:129)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.895
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-11-21 17:34:47.898
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+!STACK 1
+Java Model Exception: Status ERROR: org.eclipse.jdt.core code=0 Build path contains duplicate entry: 'module-info.java' for project 'practice'
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:548)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:269)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createCpes(ClasspathUtil.java:139)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:83)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:129)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.898
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-11-21 17:34:47.901
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+!STACK 1
+Java Model Exception: Status ERROR: org.eclipse.jdt.core code=0 Build path contains duplicate entry: 'module-info.java' for project 'practice'
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:548)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:269)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createCpes(ClasspathUtil.java:139)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:83)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:129)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.901
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-11-21 17:34:47.904
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+!STACK 1
+Java Model Exception: Status ERROR: org.eclipse.jdt.core code=0 Build path contains duplicate entry: 'module-info.java' for project 'practice'
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:548)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:269)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createCpes(ClasspathUtil.java:139)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:83)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:129)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.904
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-11-21 17:34:47.907
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+!STACK 1
+Java Model Exception: Status ERROR: org.eclipse.jdt.core code=0 Build path contains duplicate entry: 'module-info.java' for project 'practice'
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:548)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:269)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createCpes(ClasspathUtil.java:139)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:83)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:129)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.907
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-11-21 17:34:47.910
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+!STACK 1
+Java Model Exception: Status ERROR: org.eclipse.jdt.core code=0 Build path contains duplicate entry: 'module-info.java' for project 'practice'
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:548)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:269)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createCpes(ClasspathUtil.java:139)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:83)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:129)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.910
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-11-21 17:34:47.913
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+!STACK 1
+Java Model Exception: Status ERROR: org.eclipse.jdt.core code=0 Build path contains duplicate entry: 'module-info.java' for project 'practice'
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:548)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:269)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createCpes(ClasspathUtil.java:139)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:83)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:129)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.913
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.916
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.919
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.922
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.949
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.952
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.955
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.959
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.962
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.968
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.975
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.978
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.982
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.986
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.992
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.996
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:47.999
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:48.002
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:48.005
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:48.009
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:48.013
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:48.016
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:48.019
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:48.023
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:48.026
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:48.030
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:48.035
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:48.039
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:48.042
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:48.046
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:48.052
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:48.083
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:48.087
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:48.127
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:48.135
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:48.139
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:48.145
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:48.153
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:48.160
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:48.169
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:48.172
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:48.176
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:48.179
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:48.183
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:48.186
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:48.189
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:48.192
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-21 17:34:48.196
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.jdt.core 4 4 2022-11-21 17:34:48.527
+!MESSAGE JavaBuilder handling CoreException while building: practice
+!STACK 1
+Java Model Exception: Status ERROR: org.eclipse.jdt.core code=0 Build path contains duplicate entry: 'module-info.java' for project 'practice'
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:548)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaProject.getModuleDescription(JavaProject.java:3917)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:129)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.<init>(NameEnvironment.java:63)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.initializeBuilder(JavaBuilder.java:644)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:182)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1024)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:254)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:311)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:400)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:403)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:514)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:462)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:544)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:161)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 0 2022-11-21 17:34:48.527
+!MESSAGE Build path contains duplicate entry: 'module-info.java' for project 'practice'
+
+!ENTRY org.eclipse.ui 2 2 2022-11-21 17:34:57.918
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-11-21 17:38:05.158
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)

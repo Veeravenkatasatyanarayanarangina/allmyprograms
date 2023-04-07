@@ -1,0 +1,15 @@
+package com.motivity.ois.configuration;
+
+import org.springframework.context.annotation.Bean;
+
+import com.motivity.ois.service.AttachmentService;
+import com.motivity.ois.service.AttachmentServiceImpl;
+
+@org.springframework.context.annotation.Configuration
+public class Configuration {
+
+	@Bean
+	public AttachmentService getAttachmentService() {
+		return new AttachmentServiceImpl();
+	}
+}

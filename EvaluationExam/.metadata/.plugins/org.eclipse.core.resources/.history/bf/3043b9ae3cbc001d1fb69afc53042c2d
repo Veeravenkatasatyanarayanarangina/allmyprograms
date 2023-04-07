@@ -1,0 +1,36 @@
+package com.exam.controller;
+
+import java.util.List;
+import java.util.Map;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.reactive.function.client.WebClient;
+
+@RestController
+public class HomeController {
+	
+	@GetMapping("/")
+	public String text()
+	{
+		return "hai";
+	}
+	
+	@GetMapping("/webdataurl")
+	public List<Object> webclienturldata() {
+		
+		
+		WebClient client = WebClient.create();
+		
+		List<Object> acc = client.get()
+				.uri("https://jsonplaceholder.typicode.com/users")
+				.retrieve().bodyToMono(List.class).block();
+		
+		return acc;
+		
+		
+		
+		
+	}
+
+}

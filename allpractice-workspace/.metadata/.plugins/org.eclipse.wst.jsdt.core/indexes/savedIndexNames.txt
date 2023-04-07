@@ -1,0 +1,5 @@
+INDEX VERSION 1.4+D:\allmyprograms\allpractice-workspace\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1120001110.index
+3266950889.index
+4133140138.index
+3538186962.index

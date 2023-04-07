@@ -1,0 +1,5 @@
+package com.motivity.ois.entity;
+
+public class Attachment {
+
+}
